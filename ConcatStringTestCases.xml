@@ -1,0 +1,11 @@
+<suite name="StringTestCases">
+
+<parameter name="RequestID" value="new2">
+	
+   <test name="StringConcatenationTestCases">
+		<classes>
+			<class name="QualityKioskTraining.StringTesting.TestCase"/>
+		</classes>
+	</test>
+</parameter>
+</suite>

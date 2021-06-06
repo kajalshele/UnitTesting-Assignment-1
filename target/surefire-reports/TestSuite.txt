@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.655 s <<< FAILURE! - in TestSuite
+concatNullString(QualityKioskTraining.StringTesting.TestCase)  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: expected [Not a String value] but found [null null]
+	at QualityKioskTraining.StringTesting.TestCase.concatNullString(TestCase.java:59)
+

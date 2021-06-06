@@ -1,0 +1,14 @@
+<suite name="SmokeTestCases">
+	<parameter name="RequestID" value="Smoke1" />
+	<groups>
+		<run>
+			<include name="SmokeTest" />
+		</run>
+	</groups>
+
+	<test name="TestCase">
+		<classes>
+			<class name="QualityKioskTraining.StringTesting.TestCase" />
+		</classes>
+	</test>
+</suite>

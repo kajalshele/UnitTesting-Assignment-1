@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTestCases]">
+  <parameter name="RequestID" value="Smoke1"/>
+  <test thread-count="5" name="TestCase(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="QualityKioskTraining.StringTesting.TestCase">
+        <methods>
+          <include name="concatWithString" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- QualityKioskTraining.StringTesting.TestCase -->
+    </classes>
+  </test> <!-- TestCase(failed) -->
+</suite> <!-- Failed suite [RegressionTestCases] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [StringTestCases]">
+  <parameter name="RequestID" value="new2"/>
+  <test thread-count="5" name="StringConcatenationTestCases(failed)">
+    <classes>
+      <class name="QualityKioskTraining.StringTesting.TestCase">
+        <methods>
+          <include name="createResultFolder"/>
+          <include name="copyReportFile"/>
+          <include name="concatNullString"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="reinitialisedResultVar"/>
+        </methods>
+      </class> <!-- QualityKioskTraining.StringTesting.TestCase -->
+    </classes>
+  </test> <!-- StringConcatenationTestCases(failed) -->
+</suite> <!-- Failed suite [StringTestCases] -->
